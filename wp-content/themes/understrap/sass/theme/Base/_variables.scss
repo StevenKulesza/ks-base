@@ -1,0 +1,23 @@
+// Descriptive color variables
+$white:                     #fff;
+$black:                     #000;
+$gray:                      #878787;
+$dark-gray:                 #1a1a1a;
+$ks-blue:					#3f587d;
+$ks-red:					#ac1600;
+// Functional Color Variables
+$color-prim:                  $dark-gray;
+$color-sec:                   $ks-blue;
+$color-ter:                   $ks-red;
+
+// Font Stacks
+$stack-sans-serif:			  sans-serif;
+$stack-serif:                 serif;
+
+
+// Asset paths
+$stylesheet-img:              '../images';
+
+
+// Media Query Breakpoints
+$brk-md:                      '(min-width:768px)';

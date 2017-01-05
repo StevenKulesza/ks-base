@@ -57,7 +57,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 } ?><!-- end custom logo -->
 
 				</div>
-
+				
 				<!-- The WordPress Menu goes here -->
 				<?php wp_nav_menu(
 					array(
@@ -70,7 +70,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						'walker'          => new WP_Bootstrap_Navwalker(),
 					)
 				); ?>
-
+				<?php ?>
 			</div> <!-- .container -->
 
 		</nav><!-- .site-navigation -->
