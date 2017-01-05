@@ -223,3 +223,12 @@ if ( ! function_exists( 'understrap_customize_preview_js' ) ) {
 	}
 }
 add_action( 'customize_preview_init', 'understrap_customize_preview_js' );
+
+
+register_nav_menus( array(
+    'primary' => __( 'Primary Menu', 'ks-base' ),
+) );
+
+// Remove emojis
+remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
+remove_action( 'wp_print_styles', 'print_emoji_styles' ); 
